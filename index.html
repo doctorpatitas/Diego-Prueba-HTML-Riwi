@@ -23,6 +23,7 @@
             <!-- Nav for desktop / hamburger for mobile -->
             <nav class="nav">
                 <ul class="nav__list">
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#events">Events</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#media">Media</a></li>
@@ -38,7 +39,7 @@
     <main>
 
         <!-- HERO -->
-        <section class="hero">
+        <section id="home" class="hero">
             <div class="hero__overlay">
                 <h2>Rock the Night</h2>
                 <p>Upcoming Tour</p>
@@ -88,21 +89,25 @@
             <h2>About the Band</h2>
 
             <div class="about__content">
-                <!-- <img src="./assets/img/img-1.jpg" alt="Band photo"> -->
 
-                <article>
-                    <p>
+                <article class="about_items">
+                    <img src="./assets/img/img-1.jpg" alt="Band photo">
+                    <div class="hidden-text">
+                        <p>
                         Shattered Riffs is a high-energy rock band known for powerful live performances
                         and raw sound.
-                    </p>
+                        </p>
 
-                    <!-- Required list -->
-                    <h3>Our Influences</h3>
-                    <ul>
-                        <li>Classic Rock</li>
-                        <li>Hard Rock</li>
-                        <li>Alternative</li>
-                    </ul>
+                        <!-- Required list -->
+                        <div class="influences">
+                            <h3>Our Influences</h3>
+                            <ul>
+                                <li>Classic Rock</li>
+                                <li>Hard Rock</li>
+                                <li>Alternative</li>
+                            </ul>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
